@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit fitness</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* css reset  */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/flbst.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .left {
+        /* border: solid 2px red; */
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 35px;
+        text-align: center;
+    }
+
+    .left img {
+        width: 108px;
+        height: 55px;
+        /* background-color: none; */
+    }
+
+    .mid {
+        /* border: solid 2px rgb(15, 182, 126); */
+        display: block;
+        width: 37%;
+        margin: 30px auto;
+        padding: 5px 5px;
+        /* text-align: center; */
+        background-color: black;
+        border-radius: 22px;
+        position: sticky;
+    }
+
+    .right {
+        /* border: solid 2px rgb(223, 219, 29); */
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 35px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        /* color: yellow; */
+        background-color: rgb(20, 35, 122);
+        margin: 10px 22px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .btn:hover {
+        background-color: rgb(202, 30, 174);
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* background-color: brown; */
+        /* padding:; */
+    }
+
+    .navbar li a {
+        color: aqua;
+        font-size: 16px;
+        padding: 34px 22px;
+        position: auto;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .container {
+        /* border: 3px solid rgb(233, 207, 207); */
+        margin: 140px 87px;
+        padding: 22px 51px;
+        width: 20%;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 208px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    .neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <!-- <img src="img/dumbell-icon.jpg" alt=""> -->
+            <img src="img/dumbell-icon-removebg-preview.png" alt="">
+            <div>Ankit fitness</div>
+
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Check-up</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right for button  -->
+        <div class="right">
+            <button class="btn neonText">Call Us</button>
+            <button class="btn neonText">Contact</button>
+        </div>
+        <!-- <div class="container">main ek container hoon</div> -->
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Navi Mumbai Now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
